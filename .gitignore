@@ -1,1 +1,5 @@
-.github/**
+# this file already contained -> .github/**
+#is it needed? for me it makes no sense 
+chicago.csv
+new_york_city.csv
+washington.csv
