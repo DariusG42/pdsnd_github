@@ -16,7 +16,7 @@ new_york_city.csv (.gitignore)
 washington.csv (.gitignore)
 
 ### Credits
-Thanks to my daughter for her helping me to structure my thoughts while coding... 
+Thanks to my daughter for her helping me to structure my thoughts while coding...
 https://knowledge.udacity.com
 https://stackoverflow.com
 https://www.delftstack.com/de
@@ -24,3 +24,4 @@ https://www.python-lernen.de
 https://realpython.com
 https://www.tutorialspoint.com
 https://www.tuxcademy.org/download/de/pyth
+https://dict.leo.org/englisch-deutsch/
