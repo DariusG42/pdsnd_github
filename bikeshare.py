@@ -5,8 +5,8 @@ import numpy as np
 CITY_DATA = { '2': 'chicago.csv',
               '1': 'new_york_city.csv',
               '3': 'washington.csv' }
-monate = ('january', 'february', 'march', 'april', 'may', 'june', 'all')
-tage = ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all')
+monate = ('january', 'february', 'march', 'april', 'may', 'june', 'a')
+tage = ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'a')
 staedte = ('2', '1','3')
 def get_filters():
 
@@ -33,9 +33,9 @@ def get_filters():
     monthRead = True
             #get user input for month (all, january, february, ... , june)
     while monthRead:
-         month = input('\nWhich month from January - June are you interested in?. Please enter a month, or all:\n').lower()
+         month = input('\nWhich month from January - June are you interested in?. Please enter a month, or a for all:\n').lower()
          if month not in monate:
-            print('\n??uups, is this a month from January to June?? Please enter a valid month, or all:\n')
+            print('\n??uups, is this a month from January to June?? Please enter a valid month, or a for all:\n')
             continue
          else:
             monthRead = False
@@ -43,9 +43,9 @@ def get_filters():
     weekRead = True
              #get user input for day of week (all, monday, tuesday, ... sunday)
     while weekRead:
-        day = input('\nWhich day are you interested in? Please enter a day from Monday - Sunday, or all\n').lower()
+        day = input('\nWhich day are you interested in? Please enter a day from Monday - Sunday, or  a for all\n').lower()
         if day not in tage:
-            print('\nWhich kind of day is that? Please enter a valid day, or all:\n')
+            print('\nWhich kind of day is that? Please enter a valid day, or a for all:\n')
             continue
         else:
             weekRead = False
